@@ -14,7 +14,7 @@ class Road:
     def mass_full(self, base_mas, base_tall):
         """Функция ждет два параметро:
         mass_full(масса квадратногометра толщиной 1см, толщина слоя)"""
-        print('Масса всего полотна:', Road.__length * Road.__width * base_mas * base_tall, 'тон')
+        print('Масса всего полотна:', (Road.__length * Road.__width * base_mas * base_tall) / 1000, 'тон')
 
 
 mass = Road()
